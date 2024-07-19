@@ -1,0 +1,72 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    animation-name: anim1;
+    animation-duration: 6s;
+    position: relative;
+        
+  }
+  @keyframes anim1{
+    0%{top: 0px;left: 0px;}
+    25%{top: 25px;left: 25px;}  
+   
+  }
+
+ .box {
+    border: 5px solid #ccc;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    animation-name: anim1;
+    animation-duration: 6s;
+    position: relative;  
+    transition: font-weight infinite ;
+ }
+
+ .box:hover{
+  font-weight: bold;
+ }
+
+
+ h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+ }
+
+  .card-header {
+    font-size: 30px;
+    color: #000;
+
+  }
+  
+  .course-details {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  
+ 
+  
+  .view-details-btn {
+    background-color: rgb(57, 163, 216); /* Replace with actual color code */
+    color : white;
+    text-align: center;
+    padding: 10px;
+    
+  }
+
+  body{
+    background-image: linear-gradient(to right,  #00CDAC, #02AABD);
+  }
+  
+  
+  /*background-image: linear-gradient(to right, #FA4B37, #DF2771);
+  
+  #ccc
+  
+  */
